@@ -21,6 +21,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+/**
+ * 
+ * @author Sandhya
+ * A Demo Spring Boot Rest Controller to demonstrate 
+ * a simulation of DB Respository that uses virtual memory
+ *
+ */
+
 @RestController
 public class UserResource {
 

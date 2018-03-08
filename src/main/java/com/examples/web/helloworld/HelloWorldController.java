@@ -12,6 +12,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 
+ * @author Sandhya
+ * A Demo Spring Boot Rest Controller that displays 
+ * an internationalized Good Morning Message in English 
+ * and French. Messages are set in message.properties files.
+ * 
+ */
+
 @RestController
 public class HelloWorldController {
 	
@@ -21,19 +30,19 @@ public class HelloWorldController {
 	@GetMapping(path="/hello-world")
 	public String helloWorld()
 	{
-		return "Hello Bava";
+		return "Hello world";
 	}
 	
 	@GetMapping(path="/hello-world-bean")
 	public HelloWorldBean helloWorldBean()
 	{
-		return new HelloWorldBean("Hello Bava");
+		return new HelloWorldBean("Hello World");
 	}
 	
 	@GetMapping(path="/hello-world/path-variable/{name}")
 	public HelloWorldBean helloWorldPathVariable(@PathVariable String name)
 	{
-		return new HelloWorldBean(String.format("Hello Bava, %s", name));
+		return new HelloWorldBean(String.format("Hello world, %s", name));
 	}
 	
 	@GetMapping(path="/hello-world-internationalized")

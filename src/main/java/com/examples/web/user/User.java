@@ -13,6 +13,13 @@ import javax.validation.constraints.Size;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
+/**
+ * 
+ * @author Sandhya
+ * Spring Data Entity for the H2 User table
+ *
+ */
+
 @ApiModel(description="All details about the user")
 @Entity
 public class User {

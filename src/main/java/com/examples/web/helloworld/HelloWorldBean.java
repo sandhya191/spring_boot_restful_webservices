@@ -1,5 +1,12 @@
 package com.examples.web.helloworld;
 
+/**
+ * 
+ * @author Sandhya
+ * Model used for the HelloWorldController response
+ *
+ */
+
 public class HelloWorldBean {
 	
 	private String message;

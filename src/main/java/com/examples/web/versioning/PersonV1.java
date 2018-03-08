@@ -1,5 +1,12 @@
 package com.examples.web.versioning;
 
+/**
+ * 
+ * @author Sandhya
+ * Response model used by the PersonVersioningController
+ *
+ */
+
 public class PersonV1 {
 	
 	private String name;

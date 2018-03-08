@@ -7,6 +7,14 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * 
+ * @author Sandhya
+ * A Demo Service that stores data in Heap.
+ * A Simulation of a DB to demonstrate virtual memory.
+ *
+ */
+
 @Component
 public class UserDaoService {
 	

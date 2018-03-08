@@ -14,6 +14,12 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 import com.examples.web.user.UserNotFoundException;
 
+/**
+ * 
+ * @author Sandhya
+ * Customized Exception Handler for the Project
+ */
+
 @RestController
 @ControllerAdvice
 public class CustomizedResponseEntityExceptionHandler

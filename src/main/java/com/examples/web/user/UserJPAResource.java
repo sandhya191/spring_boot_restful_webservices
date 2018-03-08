@@ -22,6 +22,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+
+/**
+ * 
+ * @author Sandhya
+ * Demo Spring Boot Rest Controller to demonstrate the CRUD operations 
+ * for User and Post tables in the Spring Boot Starter H2 database.
+ *
+ */
+
 @RestController
 public class UserJPAResource {
 

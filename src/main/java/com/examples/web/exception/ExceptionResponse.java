@@ -2,6 +2,12 @@ package com.examples.web.exception;
 
 import java.util.Date;
 
+/**
+ * 
+ * @author Sandhya
+ * Exception Response used by CustomizedResponseEntityExceptionHandler
+ *
+ */
 
 public class ExceptionResponse {
 	

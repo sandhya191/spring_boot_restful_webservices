@@ -8,6 +8,13 @@ import javax.persistence.ManyToOne;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+/**
+ * 
+ * @author Sandhya
+ * Spring Data Entity for the H2 Post table
+ * 
+ */
+
 @Entity
 public class Post {
 	

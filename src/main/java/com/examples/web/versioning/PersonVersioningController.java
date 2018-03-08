@@ -3,6 +3,16 @@ package com.examples.web.versioning;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 
+ * @author Sandhya
+ * Demo Spring Boot Rest Controller to demonstrate versioning
+ * (1) URI versioning
+ * (2) X-API-VERSION header parameter
+ * (3) produces header parameter
+ * 
+ */
+
 @RestController
 public class PersonVersioningController {
 	

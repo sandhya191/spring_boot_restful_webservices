@@ -1,5 +1,12 @@
 package com.examples.web.versioning;
 
+/**
+ * 
+ * @author Sandhya
+ * Model contained in the PersonV2 model
+ *
+ */
+
 public class Name {
 	
 	private String firstname;

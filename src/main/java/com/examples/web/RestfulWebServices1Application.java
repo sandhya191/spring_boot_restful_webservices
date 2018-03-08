@@ -11,6 +11,12 @@ import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 
+/**
+ * @author Sandhya
+ * Spring Boot Application Starter Class
+ * 
+ */
+
 @SpringBootApplication
 public class RestfulWebServices1Application {
 
